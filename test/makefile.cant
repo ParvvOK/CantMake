@@ -1,0 +1,20 @@
+# comments
+
+project "Game"
+
+compiler "g++"
+
+standard "c++23"
+
+output "Gayme"
+
+sources {
+    "examples/src/main.cpp"
+    "examples/src/player.cpp"
+    "examples/src/enemy.cpp"
+    "examples/src/world.cpp"
+}
+
+include_dirs {
+    "examples/include"
+}
